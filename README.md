@@ -40,7 +40,7 @@ RUN chmod +x /commands.sh
 CMD ["/bin/bash", "/commands.sh"]
 
 
-Step 2: Created commands.sh Script
+### ** Step 2: Created commands.sh Script
 #!/bin/bash
 echo "Current Directory:"
 pwd
@@ -58,21 +58,21 @@ echo "Directory Tree:"
 tree /
 
 
-Step 3: Built the Docker Image
+### ** Step 3: Built the Docker Image
 docker build -t my-linux-commands .
 
 
-Step 4: Ran the Docker Container
+### ** Step 4: Ran the Docker Container
 docker run -it my-linux-commands
 
 
-Step 5: Initialized Git Repository
+### ** Step 5: Initialized Git Repository
 git init
 git add .
 git commit -m "Initial commit with Dockerfile and commands.sh"
 
 
-Step 6: Pushed to GitHub
+### ** Step 6: Pushed to GitHub
 git remote add origin https://github.com/<your-username>/<your-repo>.git
 git push -u origin main
 
