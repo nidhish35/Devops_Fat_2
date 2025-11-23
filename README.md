@@ -26,7 +26,7 @@ Reducing manual activities—like testing, building, and deployments—by using 
 I created a Dockerfile using Ubuntu as the base image. Inside it, I installed basic Linux utilities and copied a shell script that runs Linux commands.
 
 #### **Dockerfile**
-```Dockerfile
+
 FROM ubuntu:latest
 
 RUN apt-get update && apt-get install -y \
@@ -65,12 +65,14 @@ git commit -m "Initial commit with Dockerfile and commands.sh"
 Step 6: Pushed to GitHub
 git remote add origin https://github.com/<your-username>/<your-repo>.git
 git push -u origin main
- 3. How This Assignment Helps Me Learn DevOps, Linux, Git & Docker
- DevOps
+
+
+ ## 3. How This Assignment Helps Me Learn DevOps, Linux, Git & Docker
+ ### DevOps
 This assignment gives hands-on experience in automation, containerization, and reproducible environments—core DevOps principles.
- Linux
+ ### Linux
 Running Linux commands inside Docker improves my understanding of shell scripting, directory structure, and system utilities.
- Git
+ ### Git
 Using Git helps me learn version control, uploading projects, managing commits, and collaborating effectively.
- Docker
+ ### Docker
 Creating Dockerfiles, building images, and running containers teaches me how to package and deploy applications consistently across environments.
