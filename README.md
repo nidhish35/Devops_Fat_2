@@ -1,6 +1,6 @@
 # DevOps Assignment – Dockerfile + Basic Linux Commands
 
-## 📌 1. Five DevOps Concepts
+##  1. Five DevOps Concepts
 
 ### **1. CI/CD (Continuous Integration and Continuous Deployment)**
 Automatically building, testing, and deploying applications so that new changes reach production faster.
@@ -19,7 +19,7 @@ Reducing manual work by automating builds, tests, deployments, and system setups
 
 ---
 
-## 📌 2. How I Completed This Assignment
+##  2. How I Completed This Assignment
 
 ### **Step 1: Created Dockerfile**
 
