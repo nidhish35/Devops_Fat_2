@@ -73,7 +73,7 @@ git commit -m "Initial commit with Dockerfile and commands.sh"
 
 
 ### **Step 6: Pushed to GitHub
-git remote add origin [https://github.com/<your-username>/<your-repo>.git](https://github.com/nidhish35/Devops_Fat_2.git)
+git remote add origin https://github.com/nidhish35/Devops_Fat_2.git
 git push -u origin main
 
 
